@@ -1,0 +1,67 @@
+#container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 5px;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 80px auto;
+}
+
+#container h1 {
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+#container h1 svg {
+  margin-right: 6px;
+}
+
+#container form {
+  display: flex;
+}
+
+#container form input {
+  flex: 1;
+  padding: 10px 15px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#container form button {
+  background: #7159c1;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#repositories {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#repositories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#repositories ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#repositories ul li a {
+  text-decoration: none;
+  color: #7159c1;
+}
